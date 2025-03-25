@@ -1,8 +1,8 @@
 name: Create a nightly tag
 
 on:
-  schedule:
-    - cron: "0 0 * * 1-5" # Run workflow at 00:00 midnight UTC (05:30 AM IST) every Monday-Friday
+  # schedule:
+    # - cron: "0 0 * * 1-5" # Run workflow at 00:00 midnight UTC (05:30 AM IST) every Monday-Friday
 
   workflow_dispatch:
 
